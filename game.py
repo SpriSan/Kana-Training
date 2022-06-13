@@ -50,7 +50,7 @@ katakanas_yoon = {'キャ': 'kya', 'キュ': 'kyu', 'キョ': 'kyo', 'ギャ': '
 
 
 #Rassembler tous les dictionnaires en un seul dictionnaire
-dictionnaire = {**hiraganas, **hiraganas_yoon} #**katakanas, #**katakanas_yoon
+dictionnaire = {**hiraganas, **hiraganas_yoon, **katakanas, **katakanas_yoon}
 
 while game is True:
 
