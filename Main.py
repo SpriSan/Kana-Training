@@ -10,7 +10,6 @@ mauvaise_rep = 0
 
 #Initialisation de la fenêtre
 fenetre = Tk()
-#fenetre.iconbitmap("/assets/icone.ico")
 fenetre.title("Kana training")
 fenetre.configure(width=1000, height=600)
 caractere=Label(fenetre, text=kana, font='Arial 120 bold')
