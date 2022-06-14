@@ -52,7 +52,7 @@ def nouveau_kana():
     aide.configure(text="")
     print("Kana : " + kana + " Phonétique : " + phonetique)
 
-#bloque la saisie et la barre de progression pendant 2 secondes
+#bloque la saisie et la barre de progression pendant 0,8 secondes
 def bloque_saisie():
     var = IntVar()
     fenetre.after(0, var.set, 1)
