@@ -6,11 +6,15 @@ import subprocess
 try:
     from tkinter import *    
     from tkinter import ttk
-    import customtkinter    
 except ImportError:
     subprocess.check_call(["python", "-m", "pip", "install", "tkinter"])
-    subprocess.check_call(["python", "-m", "pip", "install", "customtkinter"])    
     from tkinter import *
+    from tkinter import ttk
+
+try:
+    import customtkinter    
+except ImportError:
+    subprocess.check_call(["python", "-m", "pip", "install", "customtkinter"])    
     import customtkinter    
 
 #ne vous plaignez pas si vous trouvez que ce fichier est un vrai bourbier
