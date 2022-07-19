@@ -1,11 +1,17 @@
-from tabnanny import check
-from tkinter import *
 import random
-from turtle import back, delay
 import Kanas
-from tkinter import ttk
-import customtkinter
 
+import subprocess
+
+try:
+    from tkinter import *    
+    from tkinter import ttk
+    import customtkinter    
+except ImportError:
+    subprocess.check_call(["python", "-m", "pip", "install", "tkinter"])
+    subprocess.check_call(["python", "-m", "pip", "install", "customtkinter"])    
+    from tkinter import *
+    import customtkinter    
 
 #ne vous plaignez pas si vous trouvez que ce fichier est un vrai bourbier
 
