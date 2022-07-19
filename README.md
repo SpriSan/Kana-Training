@@ -5,7 +5,5 @@ Le projet n'est qu'en version de test, il y aura plus tard différents modes de 
 
 # Changelog
 
-- Ajout d'un interface graphique
-- Ajout d'un timer de 5 secondes
-- Ajout d'un compteur de bonnes et mauvaises réponses
-- En cas de mauvaise réponse, la bonne réponse s'affiche pendant 0.8 secondes
+- Modernisation de l'interface graphique
+- Ajout d'une case à cocher pour annuler le timer
